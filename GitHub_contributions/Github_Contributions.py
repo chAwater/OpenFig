@@ -96,7 +96,8 @@ for axis in ['top','bottom','left','right']:
     
 ax.set_title('GitHub Contributions @ '+y)
 
-fig.savefig('GitHub_Contributions.png')
+fig.savefig('GitHub_Contributions.png', bbox_inches='tight')
+fig.savefig('GitHub_Contributions.svg', bbox_inches='tight')
 
 
 # In[ ]:

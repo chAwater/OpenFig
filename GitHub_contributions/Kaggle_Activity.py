@@ -118,7 +118,8 @@ ax.xaxis.set_label_position('top')
 ax.set_title('Activity @ '+pd.Timestamp.today().strftime('%Y-%m-%d'))
 ax.tick_params(top=False)
 
-fig.savefig('Kaggle_Activity.png')
+fig.savefig('Kaggle_Activity.png', bbox_inches='tight')
+fig.savefig('Kaggle_Activity.svg', bbox_inches='tight')
 
 
 # In[ ]:

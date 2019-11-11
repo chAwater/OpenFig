@@ -6,10 +6,9 @@
 
 ## GitHub
 
-![](./GitHub_Contributions.png)
+![](./GitHub_Contributions_2018.png)
 
 ## Kaggle
-
-![](./Kaggle_Activity.png)
+![](./Kaggle_Activity_2019.png)
 
 ---

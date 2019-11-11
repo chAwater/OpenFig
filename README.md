@@ -23,6 +23,6 @@
 - GitHub
 - Kaggle
 
-![](./GitHub_contributions/GitHub_Contributions.png)
+![](./GitHub_contributions/GitHub_Contributions_2018.png)
 
 ---

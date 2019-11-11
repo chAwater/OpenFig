@@ -26,8 +26,8 @@ L 19.2 19.2
 z
 " style="fill:#ffffff;"/>
    </g>
-   <g clip-path="url(#p6e559f35b3)">
-    <image height="55" id="image6a64b8388a" transform="scale(1 -1)translate(0 -55)" width="335" x="19.2" xlink:href="data:image/png;base64,
+   <g clip-path="url(#pab596fa2e8)">
+    <image height="55" id="image23655df707" transform="scale(1 -1)translate(0 -55)" width="335" x="19.2" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAU8AAAA3CAYAAACMy8jqAAAABHNCSVQICAgIfAhkiAAAAPxJREFUeJzt1LEJAkEAAEHfOgwNxG4+N7VmMTC0C+HsYeE4lJkKNtptjDEOf+z5eqxOmOpyvq5OmOa9OmCy0/2zOmGq7bavTpjquDoA4BeZJ0BgngCBeQIE5gkQmCdAYJ4AgXkCBOYJEJgnQGCeAIF5AgTmCRCYJ0BgngCBeQIE5gkQmCdAYJ4AgXkCBOYJEJgnQGCeAIF5AgTmCRCYJ0BgngCBeQIE5gkQmCdAYJ4AgXkCBOYJEJgnQGCeAIF5AgTmCRCYJ0BgngCBeQIE5gkQmCdAYJ4AgXkCBOYJEJgnQGCeAIF5AgTmCRCYJ0BgngCBeQIE5gkQmCdA8AUGUgp9Wr68IQAAAABJRU5ErkJggg==" y="-18.56"/>
    </g>
    <g id="matplotlib.axis_1"/>
@@ -55,7 +55,7 @@ L 354 19.2
   </g>
  </g>
  <defs>
-  <clipPath id="p6e559f35b3">
+  <clipPath id="pab596fa2e8">
    <rect height="54.36" width="334.8" x="19.2" y="19.2"/>
   </clipPath>
  </defs>

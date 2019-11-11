@@ -21,10 +21,6 @@ sns.set_context(context='poster')
 # In[2]:
 
 
-import ssl
-
-ssl._create_default_https_context = ssl._create_unverified_context
-
 xkcd_rgb = pd.read_csv(
     'https://xkcd.com/color/rgb.txt', 
     sep='\t', skiprows=1, header=None, 
@@ -102,8 +98,8 @@ xkcd_name_list = [
     'iris',
 
     # Green
-    'green yellow',
-    'light green',
+    'green yellow', # 'electric lime',
+    'bright green', # 'light green', 
     'pea green',
     'teal',
     'dark grass green',

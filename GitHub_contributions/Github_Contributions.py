@@ -15,10 +15,8 @@ import json, calendar
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-import ssl; ssl._create_default_https_context = ssl._create_unverified_context;
 
-
-# In[2]:
+# In[ ]:
 
 
 y = '2018'
@@ -29,7 +27,7 @@ bsObj = BeautifulSoup(html,'lxml')
 table = bsObj.findAll('rect', {'class':'day'})
 
 
-# In[3]:
+# In[ ]:
 
 
 df = pd.DataFrame(
@@ -49,13 +47,13 @@ df['month']   = df['date'].apply(lambda row: calendar.month_abbr[row.month])
 df['year']    = df['date'].apply(lambda row: row.year)
 df['weekday'] = df['date'].apply(lambda row: row.day_name()[:3])
 
-df = df.query('year==2018')
+df = df.query('year==@y')
 
 x_labels = df.loc[ df['month'].drop_duplicates().index , ['x','month']]
 y_labels = df[['y','weekday']].drop_duplicates().sort_values('y')[1::2]
 
 
-# In[4]:
+# In[ ]:
 
 
 # c_lables = df.groupby('fill')['data-count'].max().sort_values().apply( lambda row: np.ceil(row/5).astype(int)*5 ).reset_index()
@@ -63,7 +61,7 @@ c_lables = df.groupby('fill')['data-count'].max().sort_values().reset_index()
 c_lables['idx'] = c_lables.index.to_numpy()*5
 
 
-# In[5]:
+# In[ ]:
 
 
 fig, ax = plt.subplots(figsize=(15,2))
@@ -96,8 +94,8 @@ for axis in ['top','bottom','left','right']:
     
 ax.set_title('GitHub Contributions @ '+y)
 
-fig.savefig('GitHub_Contributions.png', bbox_inches='tight')
-fig.savefig('GitHub_Contributions.svg', bbox_inches='tight')
+fig.savefig('GitHub_Contributions_' +str(y) + '.png', bbox_inches='tight')
+fig.savefig('GitHub_Contributions_' +str(y) + '.svg', bbox_inches='tight')
 
 
 # In[ ]:

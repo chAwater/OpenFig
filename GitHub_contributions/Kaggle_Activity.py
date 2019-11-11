@@ -15,8 +15,6 @@ import json, calendar
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-import ssl; ssl._create_default_https_context = ssl._create_unverified_context;
-
 
 # In[2]:
 
@@ -32,6 +30,7 @@ html = urlopen(url)
 text = html.read().decode('utf-8')
 data = json.loads(text)
 df = pd.DataFrame(data)
+df.to_csv('KaggleActivity_'+pd.Timestamp.today().strftime('%Y%m%d')+'.csv')
 
 
 # In[3]:
@@ -118,14 +117,8 @@ ax.xaxis.set_label_position('top')
 ax.set_title('Activity @ '+pd.Timestamp.today().strftime('%Y-%m-%d'))
 ax.tick_params(top=False)
 
-fig.savefig('Kaggle_Activity.png', bbox_inches='tight')
-fig.savefig('Kaggle_Activity.svg', bbox_inches='tight')
-
-
-# In[ ]:
-
-
-
+fig.savefig('Kaggle_Activity_' + pd.Timestamp.today().strftime('%Y') + '.png', bbox_inches='tight')
+fig.savefig('Kaggle_Activity_' + pd.Timestamp.today().strftime('%Y') + '.svg', bbox_inches='tight')
 
 
 # In[ ]:

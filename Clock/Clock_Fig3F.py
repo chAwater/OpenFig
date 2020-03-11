@@ -4,21 +4,6 @@
 # In[1]:
 
 
-from IPython.core.display import HTML
-
-HTML('''
-<style>
-td {
-  font-size: 16px
-}
-
-tr {
-  font-size: 18px
-}
-</style>
-'''
-)
-
 data_file = 'SinPeaksDOWN.xls'
 
 
@@ -26,10 +11,7 @@ data_file = 'SinPeaksDOWN.xls'
 # 
 # | Title | Journal | Authors | Article Date | Code Date | Figure | Links |
 # |:------|:-------:|:-------:|:------------:|:---------:|:------:|:-----:|
-# |A microfluidic approach for experimentally modelling <br> the intercellular coupling system of a mammalian  <br> circadian clock at single-cell level|Lab on a Chip|Kui Han|2020.03.02|2020.03.11| Fig3F | [DOI](https://doi.org/10.1039/D0LC00140F) |
-# 
-# 
-# 
+# |A microfluidic approach for experimentally modelling <br> the intercellular coupling system of a mammalian <br> circadian clock at single-cell level|Lab on a Chip|Kui Han|2020.03.02|2020.03.11| Fig3F | [DOI](https://doi.org/10.1039/D0LC00140F) |
 # 
 
 # In[2]:

@@ -1,6 +1,17 @@
 # OpenFig
 
 **Open Source Figure & Code**
+---
+
+## [Clock](./Clock)
+
+**Figure for Paper**
+
+- Paper links: [DOI](https://doi.org/10.1039/D0LC00140F)
+- Cells distribution under drug treatment
+- Keywords: **Polar**, **TimeData**
+
+![](./Clock/Clock_Fig3F.png)
 
 ---
 

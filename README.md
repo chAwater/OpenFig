@@ -5,11 +5,10 @@
 
 ## [Clock](./Clock)
 
-**Figure for Paper**
+**Cells distribution under drug treatment (Figure for Paper)**
 
 - Paper links: [DOI](https://doi.org/10.1039/D0LC00140F)
-- Cells distribution under drug treatment
-- Keywords: **Polar**, **TimeData**
+- Keywords: **Polar**
 
 ![](./Clock/Clock_Fig3F.png)
 

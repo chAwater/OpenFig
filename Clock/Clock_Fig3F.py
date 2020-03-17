@@ -4,7 +4,9 @@
 # In[1]:
 
 
-data_file = 'SinPeaksDOWN.xls'
+# data_file = 'SinPeaksDOWN.xls'
+# new_inputs = pd.read_excel(data_file,header=None)
+# new_inputs.to_csv('data.csv',index=False)
 
 
 # # Figure Info.
@@ -36,11 +38,11 @@ smallsize = 14
 hugesize  = 24
 
 
-# In[3]:
+# In[ ]:
 
 
 # Load data
-new_inputs = pd.read_excel(data_file,header=None)
+new_inputs = pd.read_csv('data.csv')
 new_inputs = new_inputs.values.flatten()
 new_inputs = new_inputs[~np.isnan(new_inputs)]
 new_inputs = pd.Series(new_inputs)

@@ -3,6 +3,14 @@
 **Open Source Figure & Code**
 ---
 
+## [Chromosome ideogram](./chromosome_band_ideogram)
+
+**Chromosome band ideogram for human genome**
+
+![](./chromosome_band_ideogram/ideogram_hg38.png)
+
+---
+
 ## [Clock](./Clock)
 
 **Cells distribution under drug treatment (Figure for Paper)**

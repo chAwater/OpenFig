@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Figure Info.
+# 
+# | Title | Journal | Authors | Article Date | Code Date | Figure | Links |
+# |:------|:-------:|:-------:|:------------:|:---------:|:------:|:-----:|
+# |A microfluidic approach for experimentally modelling <br> the intercellular coupling system of a mammalian <br> circadian clock at single-cell level|Lab on a Chip|Kui Han|2020.03.02|2020.03.11| Fig3F | [DOI](https://doi.org/10.1039/D0LC00140F) |
+# 
+
 # In[1]:
 
 
@@ -8,13 +15,6 @@
 # new_inputs = pd.read_excel(data_file,header=None)
 # new_inputs.to_csv('data.csv',index=False)
 
-
-# # Figure Info.
-# 
-# | Title | Journal | Authors | Article Date | Code Date | Figure | Links |
-# |:------|:-------:|:-------:|:------------:|:---------:|:------:|:-----:|
-# |A microfluidic approach for experimentally modelling <br> the intercellular coupling system of a mammalian <br> circadian clock at single-cell level|Lab on a Chip|Kui Han|2020.03.02|2020.03.11| Fig3F | [DOI](https://doi.org/10.1039/D0LC00140F) |
-# 
 
 # In[2]:
 
@@ -28,7 +28,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 import matplotlib as mpl
-mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams['svg.fonttype'] = 'none'
 
 sns.set_context(context='poster')
 

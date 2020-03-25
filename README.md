@@ -1,6 +1,22 @@
 # OpenFig
 
 **Open Source Figure & Code**
+
+---
+
+## [2019-nCov (COVID-19)](./2019-nCov)
+
+**Visualization Existing COVID-19 on China and US**
+
+![](./2019-nCov/China_vs_US.gif)
+
+- Data
+    - [COVID-19 Data by Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git)
+    - [Maps Data by GADM](https://gadm.org/)
+- Keywords
+    - Geospatial data
+    - TimeSeries data
+
 ---
 
 ## [Chromosome ideogram](./chromosome_band_ideogram)

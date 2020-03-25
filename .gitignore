@@ -1,6 +1,11 @@
 # Data files
 *.xls
 
+# For 2019-nCoV
+2019-nCoV/*.csv
+2019-nCoV/*GADM*
+2019-nCoV/*frames*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

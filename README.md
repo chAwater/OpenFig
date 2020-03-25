@@ -8,7 +8,7 @@
 
 **Visualization Existing COVID-19 on China and US**
 
-![](./2019-nCov/China_vs_US.gif)
+![](./2019-nCoV/China_vs_US.gif)
 
 - Data
     - [COVID-19 Data by Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19.git)

@@ -63,9 +63,9 @@ def plot_df(df):
     x_labels = df.loc[ df['month'].drop_duplicates().index , ['x','month']]
     y_labels = df[['y','weekday']].drop_duplicates().sort_values('y')[1::2]
 
-#     c_lables = df.groupby('fill')['data-count'].max().sort_values().apply( lambda row: np.ceil(row/5).astype(int)*5 ).reset_index()
-#     c_lables = df.groupby('fill')['data-count'].max().sort_values().reset_index()
-#     c_lables['idx'] = c_lables.index.to_numpy()*5
+#     c_labels = df.groupby('fill')['data-count'].max().sort_values().apply( lambda row: np.ceil(row/5).astype(int)*5 ).reset_index()
+#     c_labels = df.groupby('fill')['data-count'].max().sort_values().reset_index()
+#     c_labels['idx'] = c_labels.index.to_numpy()*5
     c_labels = sns.color_palette('Greens',5)
 
     fig, ax = plt.subplots(figsize=(15,2))
@@ -84,12 +84,12 @@ def plot_df(df):
 
     ax.tick_params(length=0)
 
-#     cbar_ax.scatter( x=c_lables.index.tolist(), y=[0]*c_lables.shape[0], color=c_lables['fill'], s=100, marker='s')
+#     cbar_ax.scatter( x=c_labels.index.tolist(), y=[0]*c_labels.shape[0], color=c_labels['fill'], s=100, marker='s')
     cbar_ax.scatter( x=np.arange(0,5), y=[0]*5, color=c_labels, s=100, marker='s')
     cbar_ax.set_yticks([])
-#     cbar_ax.set_xticks(c_lables.index.tolist())
+#     cbar_ax.set_xticks(c_labels.index.tolist())
     cbar_ax.set_xticks(np.arange(0,5))
-#     cbar_ax.set_xticklabels(c_lables['idx'])
+#     cbar_ax.set_xticklabels(c_labels['idx'])
     cbar_ax.set_xticklabels(df.groupby('data-level')['data-count'].max().values)
     cbar_ax.tick_params(length=0)
     cbar_ax.set_xlim(-0.5,5.5)

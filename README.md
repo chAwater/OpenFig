@@ -4,6 +4,16 @@
 
 ---
 
+## Figures in paper
+
+- Single-cell CNA analysis
+    - Low-frequency somatic copy number alterations in normal human lymphocytes revealed by large-scale single-cell whole-genome profiling. ***Genome Res.*** 2022. 32: 44-54. 
+    - [Code link](./gr.275453.121)
+    - [Paper link](https://genome.cshlp.org/content/32/1/44.long)
+    - ![](./gr.275453.121/ai_Fig4-v3.png)
+
+---
+
 ## [2019-nCov (COVID-19)](./2019-nCov)
 
 **Visualization Existing COVID-19 on China and US**

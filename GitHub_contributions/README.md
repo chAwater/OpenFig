@@ -6,20 +6,20 @@
 
 ## GitHub
 
-![](./GitHub_Contributions_2018.png)
+![](./GitHub_Contributions_2022.png)
 
-![](./GitHub_Contributions_2019.png)
+![](./GitHub_Contributions_2021.png)
 
 ![](./GitHub_Contributions_2020.png)
 
-![](./GitHub_Contributions_2021.png)
+![](./GitHub_Contributions_2019.png)
 
-![](./GitHub_Contributions_2021.png)
+![](./GitHub_Contributions_2018.png)
 
 ## Kaggle
 
-![](./Kaggle_Activity_2019.png)
-
 ![](./Kaggle_Activity_2022.png)
+
+![](./Kaggle_Activity_2019.png)
 
 ---

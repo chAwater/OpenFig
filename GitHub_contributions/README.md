@@ -14,7 +14,12 @@
 
 ![](./GitHub_Contributions_2021.png)
 
+![](./GitHub_Contributions_2021.png)
+
 ## Kaggle
+
 ![](./Kaggle_Activity_2019.png)
+
+![](./Kaggle_Activity_2022.png)
 
 ---

@@ -8,7 +8,8 @@ import seaborn as sns
 
 from bs4 import BeautifulSoup
 
-data_from_web_txt = open('./Kaggle_Activity_2022.txt', 'r').read()
+# data_from_web_txt = open('./Kaggle_Activity_2022.txt', 'r').read()
+data_from_web_txt = open('./Kaggle_Activity_2023.txt', 'r').read()
 
 bsObj = BeautifulSoup(data_from_web_txt, 'html')
 
@@ -21,6 +22,8 @@ qdict = {
     'q1' : 1,
     'q2' : 2,
     'q3' : 3,
+    'q4' : 4,
+    'q5' : 5,
 }
 
 for col in bsObj.find_all("g", {"class":"react-calendar-heatmap-week"}):
@@ -56,14 +59,14 @@ heatmap_df = fig_df.pivot(columns='x', index='y', values='value').astype(int)
 
 g = sns.heatmap(
     heatmap_df, 
-    vmax=4,
+    vmax=5,
     vmin=-0.5,
     cmap='Blues',
     yticklabels=False,
     linewidths=2.5,
     cbar_kws={ 
         'ticks':[], 
-        'boundaries' : np.arange(0,5,1),
+        'boundaries' : np.arange(0,6,1),
         'orientation':'horizontal',
     },
     cbar_ax = cbar_ax,
